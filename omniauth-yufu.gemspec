@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'omniauth/jwt/version'
+require 'omniauth/yufu/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-jwt"
-  spec.version       = Omniauth::JWT::VERSION
-  spec.authors       = ["Michael Bleigh"]
-  spec.email         = ["mbleigh@mbleigh.com"]
+  spec.name          = "omniauth-yufu"
+  spec.version       = Omniauth::Yufu::VERSION
+  spec.authors       = ["Zheng Li"]
+  spec.email         = ["312528341@qq.com"]
   spec.description   = %q{An OmniAuth strategy to accept JWT-based single sign-on.}
   spec.summary       = %q{An OmniAuth strategy to accept JWT-based single sign-on.}
-  spec.homepage      = "http://github.com/mbleigh/omniauth-jwt"
+  spec.homepage      = "http://github.com/SweenEy1130/omniauth-yufu"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

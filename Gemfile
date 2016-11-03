@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in omniauth-jwt.gemspec
+# Specify your gem's dependencies in omniauth-yufu.gemspec
 gemspec

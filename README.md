@@ -1,4 +1,4 @@
-# OmniAuth::JWT
+# OmniAuth::Yufu
 
 [![Build Status](https://travis-ci.org/mbleigh/omniauth-jwt.png)](https://travis-ci.org/mbleigh/omniauth-jwt)
 
@@ -8,7 +8,7 @@ providing Single Sign-On (SSO) to an application by allowing an authentication s
 claim and log the user in. This is how [Zendesk does SSO](https://support.zendesk.com/entries/23675367-Setting-up-single-sign-on-with-JWT-JSON-Web-Token-),
 for example.
 
-OmniAuth::JWT provides a clean, simple wrapper on top of JWT so that you can easily implement this kind
+OmniAuth::Yufu provides a clean, simple wrapper on top of JWT so that you can easily implement this kind
 of SSO either between your own applications or allow third parties to delegate authentication.
 
 ## Installation
@@ -27,10 +27,10 @@ Or install it yourself as:
 
 ## Usage
 
-You use OmniAuth::JWT just like you do any other OmniAuth strategy:
+You use OmniAuth::Yufu just like you do any other OmniAuth strategy:
 
 ```ruby
-use OmniAuth::JWT, 'SHAREDSECRET', auth_url: 'http://example.com/login'
+use OmniAuth::Yufu, 'PUBLIC_KEY', auth_url: 'http://example.com/login'
 ```
 
 The first parameter is the shared secret that will be used by the external authenticator to verify
